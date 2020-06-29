@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/torque_example.dir/examples/one_pc/one_process/torque_example.cpp.o  -o torque_example  -L/home/unitree/laikago_sdk/lib -rdynamic -pthread -llaikago_comm -llcm -Wl,-rpath,/home/unitree/laikago_sdk/lib 

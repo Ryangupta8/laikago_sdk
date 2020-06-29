@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/sdk_lcm_server_high.dir/examples/one_pc/multi_process/server/high_lcm_server.cpp.o  -o sdk_lcm_server_high  -L/home/unitree/laikago_sdk/lib -rdynamic -pthread -llaikago_comm -llcm -Wl,-rpath,/home/unitree/laikago_sdk/lib 
