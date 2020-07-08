@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/walk_example.dir/examples/one_pc/one_process/walk_example.cpp.o"
-  "walk_example.pdb"
   "walk_example"
+  "walk_example.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

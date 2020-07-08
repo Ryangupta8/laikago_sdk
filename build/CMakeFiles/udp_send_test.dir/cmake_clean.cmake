@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/udp_send_test.dir/examples/multi_pc/client/udp_send_test.cpp.o"
-  "udp_send_test.pdb"
+  "CMakeFiles/udp_send_test.dir/examples/multi_pc_udp_send.cpp.o"
   "udp_send_test"
+  "udp_send_test.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

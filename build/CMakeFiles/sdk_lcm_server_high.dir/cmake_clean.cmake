@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sdk_lcm_server_high.dir/examples/one_pc/multi_process/server/high_lcm_server.cpp.o"
-  "sdk_lcm_server_high.pdb"
   "sdk_lcm_server_high"
+  "sdk_lcm_server_high.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

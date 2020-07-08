@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/unitree/laikago_sdk/examples/one_pc/one_process/walk_example.cpp" "/home/unitree/laikago_sdk/build/CMakeFiles/walk_example.dir/examples/one_pc/one_process/walk_example.cpp.o"
+  "/home/knapsack/robots/laikago_sdk/examples/one_pc/one_process/walk_example.cpp" "/home/knapsack/robots/laikago_sdk/build/CMakeFiles/walk_example.dir/examples/one_pc/one_process/walk_example.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

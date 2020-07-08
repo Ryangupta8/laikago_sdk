@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/unitree/laikago_sdk/examples/multi_pc/client/udp_send_test.cpp" "/home/unitree/laikago_sdk/build/CMakeFiles/udp_send_test.dir/examples/multi_pc/client/udp_send_test.cpp.o"
+  "/home/knapsack/robots/laikago_sdk/examples/multi_pc_udp_send.cpp" "/home/knapsack/robots/laikago_sdk/build/CMakeFiles/udp_send_test.dir/examples/multi_pc_udp_send.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

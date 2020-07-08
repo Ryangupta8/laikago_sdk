@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,53 +6,77 @@
 
 #IncludeRegexTransform: 
 
-../include/laikago_sdk/comm.hpp
+../include/laikago_sdk/comm.h
 stdint.h
 -
 
-../include/laikago_sdk/control.hpp
-comm.hpp
-../include/laikago_sdk/comm.hpp
-loop.hpp
-../include/laikago_sdk/loop.hpp
+../include/laikago_sdk/control.h
+comm.h
+../include/laikago_sdk/comm.h
+quadruped.h
+../include/laikago_sdk/quadruped.h
 
-../include/laikago_sdk/laikago_sdk.hpp
-comm.hpp
-../include/laikago_sdk/comm.hpp
-control.hpp
-../include/laikago_sdk/control.hpp
-udp.hpp
-../include/laikago_sdk/udp.hpp
-lcm.hpp
-../include/laikago_sdk/lcm.hpp
-robot_const.hpp
-../include/laikago_sdk/robot_const.hpp
-
-../include/laikago_sdk/lcm.hpp
-comm.hpp
-../include/laikago_sdk/comm.hpp
-robot_const.hpp
-../include/laikago_sdk/robot_const.hpp
+../include/laikago_sdk/lcm.h
+comm.h
+../include/laikago_sdk/comm.h
 lcm/lcm-cpp.hpp
 -
+string.h
+-
 
-../include/laikago_sdk/loop.hpp
-comm.hpp
-../include/laikago_sdk/comm.hpp
+../include/laikago_sdk/loop.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+thread
+-
+pthread.h
+-
+vector
+-
+boost/shared_ptr.hpp
+-
+boost/function.hpp
+-
+
+../include/laikago_sdk/quadruped.h
+
+../include/laikago_sdk/udp.h
+comm.h
+../include/laikago_sdk/comm.h
+laikago_sdk/quadruped.h
+../include/laikago_sdk/laikago_sdk/quadruped.h
 pthread.h
 -
 
-../include/laikago_sdk/robot_const.hpp
-
-../include/laikago_sdk/udp.hpp
-comm.hpp
-../include/laikago_sdk/comm.hpp
-pthread.h
+../include/laikago_sdk/unitree_legged_sdk.h
+comm.h
+../include/laikago_sdk/comm.h
+control.h
+../include/laikago_sdk/control.h
+udp.h
+../include/laikago_sdk/udp.h
+loop.h
+../include/laikago_sdk/loop.h
+lcm.h
+../include/laikago_sdk/lcm.h
+quadruped.h
+../include/laikago_sdk/quadruped.h
+boost/bind.hpp
 -
 
-/home/unitree/laikago_sdk/examples/multi_pc/server/udp_recv_test.cpp
-laikago_sdk/laikago_sdk.hpp
-/home/unitree/laikago_sdk/examples/multi_pc/server/laikago_sdk/laikago_sdk.hpp
+/home/knapsack/robots/laikago_sdk/examples/multi_pc_type.h
+stdint.h
+-
+
+/home/knapsack/robots/laikago_sdk/examples/multi_pc_udp_recv.cpp
+laikago_sdk/unitree_legged_sdk.h
+/home/knapsack/robots/laikago_sdk/examples/laikago_sdk/unitree_legged_sdk.h
 math.h
 -
+multi_pc_type.h
+/home/knapsack/robots/laikago_sdk/examples/multi_pc_type.h
 

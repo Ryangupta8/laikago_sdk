@@ -5,7 +5,7 @@ Use of this source code is governed by the MPL-2.0 license, see LICENSE.
 
 #include "laikago_sdk/laikago_sdk.hpp"
 #include <math.h>
-
+#include "laikago_sdk/loop.hpp"
 using namespace laikago;
 
 struct AAA{

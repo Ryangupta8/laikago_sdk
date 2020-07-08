@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/velocity_example.dir/examples/one_pc/one_process/velocity_example.cpp.o"
-  "velocity_example.pdb"
   "velocity_example"
+  "velocity_example.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/udp_send_test.dir/examples/multi_pc/client/udp_send_test.cpp.o  -o udp_send_test  -L/home/unitree/laikago_sdk/lib -rdynamic -pthread -llaikago_comm -llcm -Wl,-rpath,/home/unitree/laikago_sdk/lib 
+/usr/bin/c++ -rdynamic CMakeFiles/udp_send_test.dir/examples/multi_pc_udp_send.cpp.o -o udp_send_test   -L/home/knapsack/robots/laikago_sdk/lib  -L/usr/local/lib  -Wl,-rpath,/home/knapsack/robots/laikago_sdk/lib:/usr/local/lib -pthread -llaikago_comm -lunitree_legged_sdk_amd64 -llcm 
